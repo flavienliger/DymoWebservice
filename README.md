@@ -11,7 +11,7 @@ Problem: webservice dymo usable only in localhost:port
 - Install [DLS 8.5.3](http://www.labelwriter.com/software/dls/win/DLSSetup.8.5.3.1897.exe)
 - Install [WebService Beta 2](http://www.labelwriter.com/SDK_Beta/DYMO_Web_Service_Install_1.0_Beta2.exe)
 - Start Webservice, in notification "Configure", enable "Use single port", and set port to 41951.
-- Install [Wamp](www.wampserver.com)
+- Install [Wamp](http://www.wampserver.com)
 
 ### Wamp configuration
 - Enable php_curl extension (by default is enable)
@@ -107,8 +107,8 @@ dymo.label.framework.init('http://yourip/dymo.php?', function(){
 
 ### Test configuration
 
-- Open localhost: http://localhost/dymo.php?/DYMO/DLS/Printing/StatusConnected > show "true"
-- Open in your network: http://yourip/dymo.php?/DYMO/DLS/Printing/StatusConnected > show "true"
+- Open: http://localhost/dymo.php?/DYMO/DLS/Printing/StatusConnected > "true"
+- Open: http://yourip/dymo.php?/DYMO/DLS/Printing/StatusConnected > "true"
 
 ### Change Dymo PORT
 - Edit dymo.php, line 5
