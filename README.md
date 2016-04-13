@@ -11,7 +11,8 @@ Problem: webservice dymo usable only in localhost:port
 - Install [DLS 8.5.3](http://www.labelwriter.com/software/dls/win/DLSSetup.8.5.3.1897.exe)
 - Install [WebService Beta 2](http://www.labelwriter.com/SDK_Beta/DYMO_Web_Service_Install_1.0_Beta2.exe)
 - Start Webservice, in notification "Configure", enable "Use single port", and set port to 41951.
-- Install [Wamp](http://www.wampserver.com)
+- Install [Visual C++ Redistributable 64 or 32bits](https://www.smartftp.com/support/kb/the-program-cant-start-because-api-ms-win-crt-runtime-l1-1-0dll-is-missing-f2702.html)
+- Install [Wamp](http://www.wampserver.com) or [via sourceForge](https://sourceforge.net/projects/wampserver/)
 
 ### Wamp configuration
 - Enable php_curl extension (by default is enable)
