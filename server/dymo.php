@@ -7,7 +7,8 @@ $url = $_SERVER['REQUEST_URI'];
 $url = substr($url, 10);
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://localhost:'.$port.$url);
+// default ip of the dymo webservice
+curl_setopt($ch, CURLOPT_URL, 'https://127.0.0.1:'.$port.$url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 
